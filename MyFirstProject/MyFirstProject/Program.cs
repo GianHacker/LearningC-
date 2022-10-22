@@ -38,6 +38,7 @@ Console.WriteLine(b);
 Console.WriteLine(a.GetType());
 Console.WriteLine(Convert.ToDouble(b)+" is a double: "+Convert.ToDouble(a).GetType());
 Console.WriteLine(Convert.ToString(a) + " is a String: "+ Convert.ToString(a).GetType());
+Console.WriteLine(Convert.ToString(symbol + " is now a string & not a char value"));
 
 Console.ReadKey();
 
